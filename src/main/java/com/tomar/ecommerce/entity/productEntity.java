@@ -16,6 +16,15 @@ private String sku;
 
 private double finalPrice;
 private double discountPrice;
+
+private String category;
+private String subCategory;
+
+private boolean isActive;
+
+private double rating;
+private int reviewCount;
+
 private int stock;
 
 @ElementCollection
