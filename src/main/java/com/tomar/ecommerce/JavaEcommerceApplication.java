@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JavaEcommerceApplication {
 
 	public static void main(String[] args) {
+		System.out.print("tomar_is_the_best_developer");
 		SpringApplication.run(JavaEcommerceApplication.class, args);
+		
 	}
 
 }
