@@ -26,6 +26,10 @@ private double rating;
 private int reviewCount;
 
 private int stock;
+private String brand;
+
+private LocalDateTime createdAt;
+private LocalDateTime updatedAt;
 
 @ElementCollection
 private List<String> productImage;
