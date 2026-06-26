@@ -1,7 +1,7 @@
 package com.tomar.ecommerce.entity;
 import jakarta.persistence.*;
 import java.util.List;
-
+import java.time.LocalDateTime;
 
 @Entity
 public class productEntity {
@@ -33,6 +33,4 @@ private LocalDateTime updatedAt;
 
 @ElementCollection
 private List<String> productImage;
-
-// Getters & Setters
 }
