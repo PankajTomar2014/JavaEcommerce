@@ -12,6 +12,8 @@ private Long id;
 
 private String productName;
 private String productDescriptions;
+private String sku;
+
 private double finalPrice;
 private double discountPrice;
 private int stock;
